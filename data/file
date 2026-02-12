@@ -1,1 +1,25 @@
 
+Files attached
+
+Transit Operations.ipynb - > Preprocessing of Trips and Delay Excel sheets from the Test data.xlsx input file.
+After preprocessing the OTP_Erosion_Cleaned.xlsx worksheet attached used as input for the Power BI dashboard.
+ 
+ Transit Operations Performance. pbix -> Power BI dashboard file.
+
+Transit Operations Performance Dashboard.pdf pdf files with screenshots of the dashboard.
+
+
+OTP Corrosion Details
+
+1.	Data Quality Observations
+•	Primary Delay Code assignment: Some trips have multiple delay codes with similar total departure delay. While tie-breaking is handled, documenting this rule explicitly in the data pipeline would improve reproducibility.
+•	Arrival Delay values: Many rows contain 0 except for the last event per trip. A transformation step ensuring only the final event carries the arrival delay avoids confusion.
+•	Trip ID reuse: Since Trip numbers are reused, combining Date + Trip as a composite key is mandatory to avoid duplicate counting. A dedicated Trip_ID field in the source system would improve clarity.
+•	Missing contextual data: We don’t see weather conditions, crew constraints, or infrastructure issues, which may explain certain spikes in delays. Adding external factors would enrich root cause analysis.
+________________________________________
+2. Results / Insights from OTP Erosion Dashboard
+•	OTP erosion trend: Certain months (e.g., July and December) show spikes in OTP erosion, often linked to a single dominant delay code. These “seasonal” surges may point to weather-related or demand-driven issues.
+•	Top delay codes: The same 2–3 delay codes consistently account for a majority of delayed trips (~70–80%). This indicates a Pareto effect where addressing a handful of causes could yield significant improvement.
+•	Location analysis: A few key stations account for a disproportionate share of delays. Operational focus at these hotspots (staffing, scheduling, or infrastructure fixes) could materially improve OTP performance.
+
+
