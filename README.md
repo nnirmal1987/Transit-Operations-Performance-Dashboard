@@ -40,5 +40,13 @@ Peak erosion observed in late summer months
 
 High concentration of delays in select urban hubs
 
+📷 Dashboard Preview
+
 <img width="1461" height="829" alt="image" src="https://github.com/user-attachments/assets/54ffc3e1-1984-4467-9dc8-b3dca10fd1b5" />
+
+<img width="1450" height="825" alt="image" src="https://github.com/user-attachments/assets/f5b940b2-4cf8-4aba-80df-49b73b705f3a" />
+
+<img width="1462" height="821" alt="image" src="https://github.com/user-attachments/assets/a34f0b1f-2595-42c3-9008-31706c9dc6d7" />
+
+
 
