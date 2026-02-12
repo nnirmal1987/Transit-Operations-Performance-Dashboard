@@ -39,3 +39,6 @@ Top 3 delay codes contribute to ~60% of delayed trips
 Peak erosion observed in late summer months
 
 High concentration of delays in select urban hubs
+
+<img width="1461" height="829" alt="image" src="https://github.com/user-attachments/assets/54ffc3e1-1984-4467-9dc8-b3dca10fd1b5" />
+
